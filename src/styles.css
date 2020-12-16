@@ -41,17 +41,6 @@ body {
   text-decoration: none;
 }
 
-/* Site Footer Style */
-.site-footer {
-  background: #5829c7;
-  padding: 15px 0;
-}
-
-.site-footer p {
-  margin: 0;
-  color: #fff;
-}
-
 /* Recipe form style */
 .recipe-form {
   padding: 30px 0;
