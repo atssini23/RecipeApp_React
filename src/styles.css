@@ -55,7 +55,7 @@ body {
 /* Recipe form style */
 .recipe-form {
   padding: 30px 0;
-  margin-left: 250px;
+  margin-left: 450px;
 }
 
 .recipe-form--input {
@@ -83,7 +83,6 @@ body {
 /* Recipe list style */
 .recipe-list {
   padding: 30px 0;
-  overflow: hidden;
 }
 
 .recipe-list .columns {
@@ -95,6 +94,7 @@ body {
   border-radius: 3px;
   overflow: hidden;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .recipe-list--wrap img {
@@ -103,9 +103,9 @@ body {
   object-fit: cover;
 }
 .container {
-  display: inline-block;
+  display: inline-table;
   width: 500px;
-  height: 30px;
+  margin: 0 15px;
 }
 
 .recipe-list--details {
