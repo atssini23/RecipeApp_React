@@ -3,8 +3,9 @@ import Recipe from "./Recipe.js";
 import "./styles.css";
 
 const App = () => {
-  const APP_ID = "2e0759b9";
-  const APP_KEY = "9184a0997c1629fa38c60b63ab042e78";
+  const APP_ID = "hidden";
+  const APP_KEY = "hidden";
+  //https://developer.edamam.com/
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
